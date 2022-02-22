@@ -1,5 +1,5 @@
 {
-  "name": "@twodashes/universal",
+  "name": "twodashes-universal",
   "version": "0.5.8",
   "description": "Universal utility functions for both browser and node (like @lodash, but with more dashes). Mostly \"pure\" functions (sorting ones use [].sort()). Promises, filtering, sorting, combining, text analysis, math, curry, sleep, etc. See also platform specific functions twodashes-node and twodashes-browser.",
   "private": false,
@@ -31,12 +31,12 @@
   "main": "cjs/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twodashes/node.git"
+    "url": "git+https://github.com/paulshorey/twodashes-node.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/twodashes/node/issues"
+    "url": "https://github.com/paulshorey/twodashes-node/issues"
   },
-  "homepage": "https://github.com/twodashes/node#readme"
+  "homepage": "https://github.com/paulshorey/twodashes-node#readme"
 }

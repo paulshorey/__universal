@@ -2,7 +2,7 @@
 
 Like @lodash, but with more dashes (lots of functionality, and uses underscores instead of camelCase). Utilities and "pure" functions (almost pure - sorting use [].sort()). Promises, filtering, sorting, combining, text analysis, math, curry, sleep, etc.
 
-See also: 📙🚀 [twodashes-browser](https://github.com/twodashes/browser) 📙🚀, which is structured the same way, but only for browser-specific code like OS, Retina, AJAX, URLs, etc. Also [twodashes-node](https://github.com/twodashes/node), for HTTP requests and CLI args for Node. Planned for the future are more platform-specific functions: twodashes-rnative" for React Native, twodashes-ionic", and in a galaxy far far away twodashes-quasar".
+See also: 📙🚀 [twodashes-browser](https://github.com/paulshorey/twodashes-browser) 📙🚀, which is structured the same way, but only for browser-specific code like OS, Retina, AJAX, URLs, etc. Also [twodashes-node](https://github.com/paulshorey/twodashes-node), for HTTP requests and CLI args for Node. Planned for the future are more platform-specific functions: twodashes-rnative" for React Native, twodashes-ionic", and in a galaxy far far away twodashes-quasar".
 
 ### ⚠️ PLEASE NOTE: ⚠️
 
@@ -19,7 +19,7 @@ Use it instantly in **[CodeSandbox.io](https://codesandbox.io/s/twodashes-univer
 ### ES Modules - import from "/esm/" to support tree-shaking:
 
 ```JavaScript
-  import { sort_by_rating_and_position } from "@twodashes/universal/esm/sort_strings"
+  import { sort_by_rating_and_position } from "twodashes-universal/esm/sort_strings"
 ```
 
 ### CommonJS - require from "/umd/" folder:
